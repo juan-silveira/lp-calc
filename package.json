@@ -1,0 +1,28 @@
+{
+  "name": "lp-calc",
+  "version": "1.0.0",
+  "description": "A tool to calculate your staking LP token in many BEP-20 (BSC) DeFi protocols.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juan-silveira/lp-calc.git"
+  },
+  "keywords": [
+    "lp",
+    "defi",
+    "bsc",
+    "calculator"
+  ],
+  "author": "Juan Silveira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juan-silveira/lp-calc/issues"
+  },
+  "homepage": "https://github.com/juan-silveira/lp-calc#readme",
+  "dependencies": {
+    "firebase": "^8.3.0"
+  }
+}
