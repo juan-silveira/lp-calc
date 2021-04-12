@@ -1,0 +1,57 @@
+@media screen and (min-width: 360px) {
+  .address-input {
+    border-radius: 4px;
+    padding: 10px 10px;
+    border: 2px solid var(--color-accent);
+    color: var(--color-text);
+    flex: 1;
+    outline: none;
+    font-size: 1.25rem;
+    transition: border 0.5s ease;
+  }
+
+  .address-input-header {
+    display: flex;
+    align-items: center;
+  }
+
+  .address-input-invalid,
+  .address-input-invalid:focus {
+    border: 2px solid var(--color-error-input);
+  }
+
+  .address-input-icon {
+    min-width: 20px;
+    transition: color 0.5s ease;
+    color: var(--color-accent);
+  }
+
+  .address-input-icon-invalid {
+    color: var(--color-accent);
+  }
+
+  .address-input-container {
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .address-input-label {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    color: var(--color-text-header);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .address-input {
+    min-width: 320px;
+  }
+
+  .address-input-container {
+    min-width: 320px;
+    max-width: 640px;
+    display: flex;
+  }
+}
