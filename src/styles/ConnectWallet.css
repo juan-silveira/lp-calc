@@ -4,7 +4,7 @@
 .connect-wallet-btn {
   padding: 0.5rem 1rem;
   outline: none;
-  border: 2px solid var(--color-accent);
+  border: 2px solid rgb(211, 137, 0);
   background-color: transparent;
   cursor: pointer;
 }

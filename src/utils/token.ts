@@ -1,7 +1,7 @@
 import Web3 from "web3";
 import { BalanceLP, BaseBalance, Balance } from "../types";
 import BigNumber from "bignumber.js";
-import { BNB, BUSD, ibBNB, ibBUSD, mebBNB, mebBUSD, USDT } from "./constants";
+import { BNB, BUSD, ibBNB, ibBUSD, mebBNB, mebBUSD, USDT, ZEFI } from "./constants";
 import Exchange from "./exchange";
 import { weiToEth } from "./unit";
 
@@ -82,6 +82,19 @@ async function calculateBalanceLP(
         bnb,
         BUSD,
         bnbAmount.integerValue().toFixed()
+      );
+      const _worth = new BigNumber(2)
+        .multipliedBy(busdAmount)
+        .integerValue()
+        .toFixed();
+      worth = parseFloat(weiToEth(_worth)).toFixed(2);
+    } else if (tokenA === ZEFI || tokenB === ZEFI) {
+      const zefi = tokenA === ZEFI ? tokenA : tokenB;
+      const zefiAmount = tokenA === ZEFI ? tokenAmountA : tokenAmountB;
+      const busdAmount = await exchange.getEquivalentToken(
+        zefi,
+        BUSD,
+        zefiAmount.integerValue().toFixed()
       );
       const _worth = new BigNumber(2)
         .multipliedBy(busdAmount)

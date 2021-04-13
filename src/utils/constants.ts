@@ -7,6 +7,7 @@ export const ibBNB = "0xd7d069493685a581d27824fc46eda46b7efc0063";
 export const ibBUSD = "0x7c9e73d4c71dae564d41f78d56439bb4ba87592f";
 export const mebBUSD = "0x7e0c621ea9f7afd5b86a50b0942eaee68b04a61c";
 export const mebBNB = "0x639f18c72b6a017bdd209c161d1617c9481a1e4d";
+export const ZEFI = "0x0288d3e353fe2299f11ea2c2e1696b4a648ecc07";
 export const masterChefPresets = [
   {
     name: "-",
@@ -97,14 +98,6 @@ export const masterChefPresets = [
     address: "0xEf6e807fD2c0Ef5883A03Ed1b962333E8C9b725f",
   },
   {
-    name: "UFO",
-    address: "0x95d9a00087f0db9e72b4014017842336480a153b",
-  },
-  {
-    name: "TACO",
-    address: "0x36f44a1C8e973739D0034FF1B9B9f6c4c7085625",
-  },
-  {
     name: 'Cheesecake',
     address: "0x398d648c58ccf6337dded3dac7cbd7970ae474b8"
   },
@@ -135,10 +128,6 @@ export const masterChefPresets = [
   {
     name: "Alpaca",
     address: "0xA625AB01B08ce023B2a342Dbb12a16f2C8489A8F",
-  },
-  {
-    name: "Sashimi",
-    address: "0x34E483600e9c73390C7fBB4C9985a057156a611F",
   },
   {
     name: "Cub Finance",

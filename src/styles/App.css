@@ -20,13 +20,13 @@
   .app-icon {
     font-size: 2rem;
     margin-right: 1rem;
-    color: var(--color-text-header);
+    color: rgb(211, 137, 0);
   }
 
   .app-header-left > h1 {
     font-size: 1.25rem;
     font-family: "Reem Kufi", sans-serif;
-    color: var(--color-text-header);
+    color: rgb(211, 137, 0);
   }
 
   .app-content-container {
