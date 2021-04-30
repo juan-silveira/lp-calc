@@ -41,24 +41,28 @@ export const masterChefPresets = [
       address: "0xaf7769f4347cc88ed50191eaca7c3ab380097b06",
   },
   {
-      name: 'Blizzard',
+      name: "Blizzard",
       address: "0x367CdDA266ADa588d380C7B970244434e4Dde790"
   },
   {
-      name: 'Blue',
+      name: "Blue",
       address: "0xb04381026F5D4AAf0487aC4336F16E133FA5FB0a"
   },
   {
       name: "CafeSwap",
       address: "0xc772955c33088a97D56d0BBf473d05267bC4feBB",
   },
+	{
+      name: "CaramelSwap",
+      address: "0x5d9a3f476d614c7545bbbdc6e3cedb0300b135b1"
+	},
   {
-      name: 'Cheesecake',
+      name: "Cheesecake",
       address: "0x398d648c58ccf6337dded3dac7cbd7970ae474b8"
   },
   {
       name: "Cub Finance",
-      address: '0x227e79C83065edB8B954848c46ca50b96CB33E16'
+      address: "0x227e79C83065edB8B954848c46ca50b96CB33E16"
   },
   {
       name: "DonutDefi",
