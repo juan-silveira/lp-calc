@@ -1,7 +1,7 @@
 import Web3 from "web3";
 import { BalanceLP, BaseBalance, Balance } from "../types";
 import BigNumber from "bignumber.js";
-import { BNB, BUSD, ibBNB, ibBUSD, mebBNB, mebBUSD, USDT, ZEFI } from "./constants";
+import { BNB, BUSD, ibBNB, ibBUSD, mebBNB, mebBUSD, USDT, ZEFI, BGOV, BBKFI, WGOLD} from "./constants";
 import Exchange from "./exchange";
 import { weiToEth } from "./unit";
 
@@ -95,6 +95,45 @@ async function calculateBalanceLP(
         zefi,
         BUSD,
         zefiAmount.integerValue().toFixed()
+      );
+      const _worth = new BigNumber(2)
+        .multipliedBy(busdAmount)
+        .integerValue()
+        .toFixed();
+      worth = parseFloat(weiToEth(_worth)).toFixed(2);
+    } else if (tokenA === BBKFI || tokenB === BBKFI) {
+      const bbkfi = tokenA === BBKFI ? tokenA : tokenB;
+      const bbkfiAmount = tokenA === BBKFI ? tokenAmountA : tokenAmountB;
+      const busdAmount = await exchange.getEquivalentToken(
+        bbkfi,
+        BUSD,
+        bbkfiAmount.integerValue().toFixed()
+      );
+      const _worth = new BigNumber(2)
+        .multipliedBy(busdAmount)
+        .integerValue()
+        .toFixed();
+      worth = parseFloat(weiToEth(_worth)).toFixed(2);
+    } else if (tokenA === BGOV || tokenB === BGOV) {
+      const bgov = tokenA === BGOV ? tokenA : tokenB;
+      const bgovAmount = tokenA === BGOV ? tokenAmountA : tokenAmountB;
+      const busdAmount = await exchange.getEquivalentToken(
+        bgov,
+        BUSD,
+        bgovAmount.integerValue().toFixed()
+      );
+      const _worth = new BigNumber(2)
+        .multipliedBy(busdAmount)
+        .integerValue()
+        .toFixed();
+      worth = parseFloat(weiToEth(_worth)).toFixed(2);
+    } else if (tokenA === WGOLD || tokenB === WGOLD) {
+      const wgold = tokenA === WGOLD ? tokenA : tokenB;
+      const wgoldAmount = tokenA === WGOLD ? tokenAmountA : tokenAmountB;
+      const busdAmount = await exchange.getEquivalentToken(
+        wgold,
+        BUSD,
+        wgoldAmount.integerValue().toFixed()
       );
       const _worth = new BigNumber(2)
         .multipliedBy(busdAmount)
