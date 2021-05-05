@@ -37,7 +37,7 @@ export const masterChefPresets = [
         address: "0x3d695c1607a085773547e07dEf1aD3CE3f518Edb",
     },
     {
-        name: "Bitblocks",
+        name: "BitBlocks Finance",
         address: "0xaf7769f4347cc88ed50191eaca7c3ab380097b06",
     },
     {
