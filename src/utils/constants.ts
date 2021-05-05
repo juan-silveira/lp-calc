@@ -114,7 +114,7 @@ export const masterChefPresets = [
     },
     {
         name: "PantherSwap",
-        address: "0x56dB5D1A7Ac52B55131EE71762b6Bd7829716BF4",
+        address: "0x058451c62b96c594ad984370eda8b6fd7197bbd4",
     },
     {
         name: "Pepper Finance v2",
