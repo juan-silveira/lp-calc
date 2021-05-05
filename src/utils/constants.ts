@@ -1,4 +1,4 @@
-export const PANCAKE_ROUTER = "0x05ff2b0db69458a0750badebc4f9e13add608c7f";
+export const PANCAKE_ROUTER = "0x10ED43C718714eb63d5aA57B78B54704E256024E";
 export const BNB = "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c";
 export const BUSD = "0xe9e7cea3dedca5984780bafc599bd69add087d56";
 export const USDT = "0x55d398326f99059ff775485246999027b3197955";
@@ -117,7 +117,7 @@ export const masterChefPresets = [
         address: "0x56dB5D1A7Ac52B55131EE71762b6Bd7829716BF4",
     },
     {
-        name: "Pepper",
+        name: "Pepper Finance v2",
         address: "0x077F9e86B53Ac32187f479A096Af0362825eD651",
     },
     {
@@ -179,6 +179,10 @@ export const masterChefPresets = [
 ];
 
 export const routerPresets = [
+    {
+        name: "PancakeSwap v2",
+        address: "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+    },
     {
         name: "PancakeSwap",
         address: "0x05ff2b0db69458a0750badebc4f9e13add608c7f",
