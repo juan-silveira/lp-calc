@@ -8,7 +8,6 @@ export const ibBUSD = "0x7c9e73d4c71dae564d41f78d56439bb4ba87592f";
 export const mebBUSD = "0x7e0c621ea9f7afd5b86a50b0942eaee68b04a61c";
 export const mebBNB = "0x639f18c72b6a017bdd209c161d1617c9481a1e4d";
 export const ZEFI = "0x0288d3e353fe2299f11ea2c2e1696b4a648ecc07";
-export const BGOV = "0xf8e026dc4c0860771f691ecffbbdfe2fa51c77cf";
 export const BBKFI = "0xfc8e68e30350c6603d3d29fcc8e676380c28fcf4";
 export const WGOLD = "0x7ab6eedd9443e0e98e5ea93667ca5b250b8dda51";
 export const masterChefPresets = [
