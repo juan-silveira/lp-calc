@@ -1,6 +1,6 @@
 {
-  "name": "lp-inspector",
-  "version": "0.1.0",
+  "name": "lp-calc",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@ethersproject/providers": "^5.0.23",
