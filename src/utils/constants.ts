@@ -132,6 +132,14 @@ export const masterChefPresets = [
         address: "0x69c77aca910851e61a64b855116888f1c5ed3b75",
     },
     {
+        name: "Privacy Swap",
+        address: "0xD8151Da76095264929ab7cB680457c18014D2f9d",
+    },
+    {
+        name: "Pulsar",
+        address: "0xC7Ea5Dc9278Bd6C05c40c298073cE827E196D82F",
+    },
+    {
         name: "Ramen",
         address: "0x97dd424b4628c8d3bd7fcf3a4e974cebba011651",
     },
