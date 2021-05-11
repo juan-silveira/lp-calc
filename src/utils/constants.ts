@@ -80,6 +80,10 @@ export const masterChefPresets = [
         address: "0x1FDCA2422668B961E162A8849dc0C2feaDb58915",
     },
     {
+        name: "Garuda Swap",
+        address: "0xf6afB97aC5eAfAd60d3ad19c2f85E0Bd6b7eAcCf",
+    },
+    {
         name: "Goose",
         address: "0xe70E9185F5ea7Ba3C5d63705784D8563017f2E57",
     },
