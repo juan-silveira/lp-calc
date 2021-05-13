@@ -74,13 +74,13 @@ function App() {
                 presets={masterChefPresets}
                 callback={setContractAddress}
               />
-              {/* <AddressInput
+              <AddressInput
                 placeholder="Enter Router address"
                 label="Router address (default to Pancakeswap)"
                 defaultValue={routercontractAddress}
                 presets={routerPresets}
                 callback={setRouterContractAddress}
-              /> */}
+              />
               <div className="app-details-section">
                 {showDetails ? (
                   <BalanceDetails
