@@ -108,6 +108,10 @@ export const masterChefPresets = [
         address: "0x56dB5D1A7Ac52B55131EE71762b6Bd7829716BF4",
     },
     {
+        name: "Mozart (MELODY)",
+        address: "0x254c3233c162cde86f1b7a91ac801b780f79d40d",
+    },
+    {
         name: "MidasGold",
         address: "0x8f0A813D39F019a2A98958eDbf5150d3a06Cd20f",
     },
