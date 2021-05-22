@@ -190,7 +190,15 @@ export const masterChefPresets = [
     {
         name: "Zcore",
         address: "0x05a8ba2DEf87f8AdaF223Edcd04F7Fc82eA6aee8",
-    }
+    },
+    {
+        name: "Zombie (ZOMBIE)",
+        address: "0x5DCC4648d7029C7055fcF25bED6CfFc99E23727E",
+    },
+    {
+        name: "Zombie (MUMMY)",
+        address: "0xcd4995A7C784D74929102e54F8F9c2a6b13f406F",
+    },
 ];
 
 export const routerPresets = [
