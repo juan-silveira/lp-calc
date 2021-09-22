@@ -128,6 +128,10 @@ export const masterChefPresets = [
         address: "0x077F9e86B53Ac32187f479A096Af0362825eD651",
     },
     {
+        name: "PEX Embassy Farms",
+        address: "0x06f6f52c5d73a5f86950e7de3e94b767e105f351",
+    },
+    {
         name: "PlumSwap",
         address: "0xdF0E240E0f9A6BeA4b18413808B2Ebf22A016b5D",
     },
