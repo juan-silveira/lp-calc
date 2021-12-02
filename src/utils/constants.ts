@@ -56,6 +56,10 @@ export const masterChefPresets = [
         address: "0x5d9a3f476d614c7545bbbdc6e3cedb0300b135b1"
     },
     {
+        name: "CashCow",
+        address: "0x94098E24FCf4701237CF58ef2A222C1cF5003c86"
+    },
+    {
         name: "Cheesecake",
         address: "0x398d648c58ccf6337dded3dac7cbd7970ae474b8"
     },
